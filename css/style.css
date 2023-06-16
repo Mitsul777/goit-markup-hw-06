@@ -669,9 +669,14 @@ color: #F4F4FD;
 .modal-field {
 margin-bottom: 8px;
 }
+
+.modal-fields {
+    margin-bottom: 16px;
+}
 .input-wrap {
 position: relative;
 }
+
 .modal-input {
     width: 100%;
     height: 40px;
@@ -684,7 +689,9 @@ position: relative;
 }
 .modal-input:focus {
     border-color: #4D5AE5; 
-    fill:#4D5AE5;
+}
+.modal-input:focus + .modal-icon {
+    fill: red;
 }
 .modal-icon {
     position: absolute;
