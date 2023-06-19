@@ -13,6 +13,7 @@
     --accent-text-color: #E7E9FC;
     --light-text-color: #F4F4FD; 
     --light-color: #FFFFFF;
+    --Pressed-state: #404BBF;
 }
 p,
 h1,
@@ -800,11 +801,17 @@ position: relative;
     justify-content: center;
     fill: transparent;
 }
+.modal-check:checked + .label-privacy .span-privacy {
+    background-color:var(--Pressed-state);
+    border: none;
+    fill: var(--light-text-color);
+}
 .a-privacy {
     color: var(--primary-text-color);
 }
 .button-privacy {
     display: block;
+    margin: 0 auto;
     min-width: 169px;
     height: 56px;
     font-weight: 500;
