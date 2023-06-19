@@ -701,7 +701,7 @@ position: relative;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-label {
-    padding-left: 24px;
+
 }
 .input-label {
     font-size: 12px;
@@ -748,9 +748,6 @@ position: relative;
     align-items: center;
     justify-content: center;
     fill: transparent;
-}
-.svg-privacy {
-
 }
 .a-privacy {
     color: var(--primary-text-color);
