@@ -544,7 +544,7 @@ color: #F4F4FD;
     margin-bottom: 16px;
 }
 .footer-search {
-
+padding-left: 80px;
 }
 .p-search {
     margin-bottom: 16px;
@@ -556,8 +556,6 @@ color: #F4F4FD;
 }
 .form-search {
     display:flex;
-}
-.label-search {
     gap: 24px;
 }
 .footer-search-input {
