@@ -416,6 +416,25 @@
                     </li>
                 </ul>
             </div>
+            <div class="footer-search">
+                <p class="p-search">Subscribe</p>
+                <form class="form-search">
+                    <label class="label-search">
+                        <input 
+                        name="search-input"
+                        type="email"
+                        placeholder="email"
+                        class="footer-search-input"
+                        />
+                    </label>
+                    <button class="footer-button-search">
+                        Subscribe
+                        <svg width="24" height="24" class="footer-svg-search">
+                            <use href="./images/icons.svg#icon-fly"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
         </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -467,7 +486,13 @@
                             <textarea name="user-comment" id="user-comment" placeholder="Text input" class="modal-area"></textarea>
                         </div>
                         <div class="modal-privacy">
-                            <input id="user-privacy" type="checkbox" value="true" name="user-privacy" class="visually-hidden" />
+                            <input 
+                                id="user-privacy"
+                                type="checkbox"
+                                value="true" 
+                                name="user-privacy" 
+                                class="visually-hidden"
+                            />
                             <label for="user-privacy" class="label-privacy">
                                 <span class="span-privacy">
                                     <svg width="10" height="8" class="svg-privacy">
